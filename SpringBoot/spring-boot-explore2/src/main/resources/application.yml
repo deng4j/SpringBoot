@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+pro:
+  service:
+    user:
+      enable: true
+
+
+
+pinda:
+  file:
+    type: LOCAL # LOCAL ALI MINIO FAST_DFS
+    uriPrefix: http://172.17.0.115:8188/ #存储类型为FAST_DFS时使用
+    storagePath: G:\word\files\chunks
+    local:
+      uriPrefix: http://172.17.0.115:8188
+      bucket-name: oss-file-service
+      endpoint: G:\word\files\uploadFiles
+    ali:
+      # 请填写自己的阿里云存储配置
+      bucket-name: deng4j
+      endpoint: http://oss-cn-shanghai.aliyuncs.com/
+      access-key-id: LTAI5t9aKpPVHWfay7GN9bHu
+      access-key-secret: fg1TElTgyt9v8r5kxVn0zJCyOrDLua

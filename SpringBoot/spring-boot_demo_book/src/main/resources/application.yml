@@ -1,0 +1,27 @@
+
+#SpringBoot版本低于2.4.3(不含)，Mysql驱动版本大于8.0时，需要在url连接串中配置时区，
+#或在MySQL数据库端配置时区解决此问题
+server:
+  port: 8081
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ssm_db?serverTimezone=UTC
+    username: root
+    password: 159735
+    type: com.alibaba.druid.pool.DruidDataSource
+
+
+
+#mybatis全局配置
+#mybatis:
+#  bootdb1.mapper-locations: classpath:
+#  type-aliases-package: com.domain
+
+#分页插件
+#pagehelper:
+#  helper-dialect: mysql
+#  reasonable: true
+#  support-methods-arguments: true
+#  params: count=countSql

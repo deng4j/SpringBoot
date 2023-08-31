@@ -1,0 +1,31 @@
+#优先级二：application.properties> application.yml> application.yaml
+#server:
+#  port: 82
+
+#设置启用环境
+spring:
+  profiles:
+    active: dev
+
+---
+#生产环境
+server:
+  port: 80
+spring:
+  profiles: pro
+---
+#开发环境
+server:
+  port: 81
+spring:
+  profiles: dev
+---
+#  测试环境
+server:
+  port: 82
+spring:
+  profiles: test
+
+
+
+

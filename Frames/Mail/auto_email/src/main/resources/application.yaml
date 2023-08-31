@@ -1,0 +1,29 @@
+mail:
+  m163:
+    username: deng4j@163.com
+    password: YDYJTCJGRKQTVYNO
+    smtp:
+      host: smtp.163.com
+      protocol: smtp
+      port:
+    imap:
+      host: imap.163.com
+      protocol: imap
+      port: 143
+      JunkMailbox: 垃圾邮件
+  mqq:
+    username: 1353976012@qq.com
+    password: chgqehbkdkorjfea
+    smtp:
+      host: smtp.qq.com
+      protocol: smtp
+      port: 587
+    imap:
+      host: imap.qq.com
+      protocol: imap
+      port: 143
+      JunkMailbox: junk
+
+
+
+
