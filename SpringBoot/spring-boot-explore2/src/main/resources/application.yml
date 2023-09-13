@@ -21,5 +21,5 @@ pinda:
       # 请填写自己的阿里云存储配置
       bucket-name: deng4j
       endpoint: http://oss-cn-shanghai.aliyuncs.com/
-      access-key-id: LTAI5t9aKpPVHWfay7GN9bHu
-      access-key-secret: fg1TElTgyt9v8r5kxVn0zJCyOrDLua
+      access-key-id: LTAXXXXXXXXXX
+      access-key-secret: fg1TXXXXXXXXXXXXXXX
