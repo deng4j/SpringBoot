@@ -1,0 +1,16 @@
+# 可以使用表达式
+
+server:
+  port: 71
+
+
+user:
+  name: 张三
+  age: 18
+
+enterprise:
+  name: ${user.name}
+  age: 16
+  subject:
+    - java
+    - 前端

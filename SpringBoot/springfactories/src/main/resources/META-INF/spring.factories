@@ -1,0 +1,4 @@
+# spring.factories的作用就是做上下文初始化，加载配置文件中的bean到Ioc容器，加载配置项等。
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    com.dzh.bootstrap.Config
